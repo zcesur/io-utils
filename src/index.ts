@@ -74,10 +74,6 @@ generateApi(
   argv["out-dir"],
   argv["ts-spec-file"],
   argv.strict,
-  argv["request-types"],
-  argv["default-success-type"],
-  argv["default-error-type"],
-  argv["response-decoders"],
   argv["camel-cased"]
   // tslint:disable-next-line:no-console
 ).then(() => console.log("done"), err => console.log(`Error: ${err}`));
